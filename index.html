@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeryGoodSand</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap">
+    <link rel="icon" type="image/webp" href="icon.webp">
+    <style>
+        body {
+            background-color: #1a1a1a; 
+            color: #dcdcdc; 
+            font-family: 'Oxanium', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #333; 
+            padding: 20px;
+            text-align: center;
+            color: #f36f6f; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 3; 
+        }
+        .maintenance-notification {
+            background-color: #ffcccb;
+            color: #8c2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .profile-cutout {
+            width: 64px;
+            height: 64px;
+            background-color: #f36f6f; 
+            border-radius: 50%; 
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 4; 
+            background-image: url('icon.webp'); 
+            background-size: cover;
+        }
+
+        main {
+            width: 60%; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #2b2b2b; 
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            border-radius: 12px; 
+            margin-top: 60px; 
+        }
+
+        h1, h2 {
+            font-size: 2.5rem;
+            color: #f36f6f; 
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #555, transparent);
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        .ip-text {
+            color: #777;
+            margin-top: 10px;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px; 
+            justify-content: center; 
+            margin-top: 20px; 
+        }
+
+        .button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: #8c2a2a; 
+            color: #fff;
+            border: none;
+            border-radius: 8px; 
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; 
+            flex: 1; 
+            text-decoration: none; 
+        }
+
+        .button:hover {
+            background-color: #5b1a1a; 
+        }
+
+        .button img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="https://site.verygoodsand.online" class="profile-cutout"></a>
+
+    <header>
+        <h1>VeryGoodSand</h1>
+        <div class="ip-text">IP: play.verygoodsand.online</div>
+    </header>
+
+    <main>
+        <h2>Welcome to VeryGoodSand's Website!</h2>
+        <hr>
+        <div class="button-container">
+            <a href="https://store.verygoodsand.online" class="button">
+                <img src="store.png" alt="Donate Icon">
+                Webstore
+            </a>
+            <a href="https://discord.gg/vKrjSFKhSh" class="button">
+                <img src="discord.png" alt="Tag Icon">
+                Discord
+            </a>
+            
+        </div>
+    </main>
+    
+</body>
+
+</html>
